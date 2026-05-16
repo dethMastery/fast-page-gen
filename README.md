@@ -1,15 +1,17 @@
-# static-gen
+#dethz-fast-page
 
-To install dependencies:
+This project is a fast single page static websites generator using Bun and TypeScript, packed into one file and placed in your `HTML` file!
 
-```bash
-bun install
-```
+## Usage
 
-To run:
+just edit configuration file at `./src/index.ts` then run 
 
-```bash
+```sh
 bun run index.ts
 ```
 
-This project was created using `bun init` in bun v1.3.12. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+The output `index.js` will be saved in `./dist/`, and now you can use it freely in your `HTML` file! 
+
+---
+
+made with 🤍, TypeScript & Bun by [dethMastery](https://github.com/dethMastery)

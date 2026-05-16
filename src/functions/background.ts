@@ -9,7 +9,7 @@ export const changeBG = async () => {
     Thanks for image from <a href="${data.source}" target="_blank">${data.author}</a>
   </div>
   <div class="button-holder">
-    <button id="update-bg">Change Image</button>
+    <button id="update-bg">🔁</button>
   </div>`;
 
   if (creditElement === null) {

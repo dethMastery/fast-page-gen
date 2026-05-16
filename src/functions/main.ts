@@ -9,7 +9,7 @@ export const main = async (config: ConfigClass) => {
 
   document.head.appendChild(css);
 
-  const mainElement = document.createElement("main");
+  const mainElement = document.createElement("div");
   mainElement.setAttribute("id", "main");
 
   const h1 = document.createElement("h1");
@@ -26,8 +26,8 @@ export const main = async (config: ConfigClass) => {
 
   mainElement.appendChild(h1);
   mainElement.appendChild(clock);
-  mainElement.appendChild(footer);
   document.body.appendChild(mainElement);
+  document.body.appendChild(footer);
 
   await changeBG();
   clockFunction();
