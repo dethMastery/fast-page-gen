@@ -3,8 +3,8 @@ import { main } from "./functions/main";
 
 const config = new ConfigClass();
 
-config.setHost("./dist");
-config.setHomepage("https://detzz.in.th");
-config.setAuthor("George");
+config.setHost("https://cdn.jsdelivr.net/gh/dethMastery/fast-page-gen@deploy");
+config.setHomepage("https://suphakit.net");
+config.setAuthor("Suphakit P.");
 
 main(config);
