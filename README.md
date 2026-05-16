@@ -1,4 +1,4 @@
-#dethz-fast-page
+# dethz-fast-page
 
 This project is a fast single page static websites generator using Bun and TypeScript, packed into one file and placed in your `HTML` file!
 
