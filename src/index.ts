@@ -8,7 +8,7 @@ const changeBG = async () => {
   const creditElement = document.querySelector("#credit") as HTMLDivElement;
   const creditText = `
   <div class="credit-text">
-    Thanks for image from <a href="${data.source}">${data.author}</a>
+    Thanks for image from <a href="${data.source}" target="_blank">${data.author}</a>
   </div>
   <div class="button-holder">
     <button id="update-bg">Change Image</button>
